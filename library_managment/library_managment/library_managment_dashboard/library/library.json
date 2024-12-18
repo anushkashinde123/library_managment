@@ -1,0 +1,32 @@
+{
+ "cards": [
+  {
+   "card": "count of Issued articles"
+  },
+  {
+   "card": "Count of available and issued"
+  }
+ ],
+ "charts": [
+  {
+   "chart": "Issued articles",
+   "width": "Half"
+  },
+  {
+   "chart": "Returned articles",
+   "width": "Half"
+  }
+ ],
+ "creation": "2024-11-05 10:23:16.192579",
+ "dashboard_name": "Library",
+ "docstatus": 0,
+ "doctype": "Dashboard",
+ "idx": 0,
+ "is_default": 0,
+ "is_standard": 1,
+ "modified": "2024-11-05 10:54:52.133170",
+ "modified_by": "Administrator",
+ "module": "Library Managment",
+ "name": "Library",
+ "owner": "Administrator"
+}

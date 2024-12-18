@@ -1,0 +1,17 @@
+.demo-class{
+    background-color: aquamarine;
+    text-align: center;
+    padding: 24px;
+}
+.caption{
+    background-color: rgb(5, 5, 5);
+    color: #faf6f6;
+    padding: 25px;
+    width: 40%;
+    left: 80px;
+    top: 320px;
+    position: absolute;
+    /* opacity: 0.8;  */
+    box-sizing: border-box
+    /* overflow: hidden; */
+}

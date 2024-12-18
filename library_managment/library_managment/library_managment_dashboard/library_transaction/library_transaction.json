@@ -1,0 +1,29 @@
+{
+ "cards": [],
+ "charts": [
+  {
+   "chart": "Submitted Transactions",
+   "width": "Half"
+  },
+  {
+   "chart": "Cancelled Transactions",
+   "width": "Half"
+  },
+  {
+   "chart": "Draft transactions",
+   "width": "Half"
+  }
+ ],
+ "creation": "2024-11-05 11:02:54.897868",
+ "dashboard_name": "Library Transaction",
+ "docstatus": 0,
+ "doctype": "Dashboard",
+ "idx": 0,
+ "is_default": 1,
+ "is_standard": 1,
+ "modified": "2024-11-05 11:10:53.663522",
+ "modified_by": "Administrator",
+ "module": "Library Managment",
+ "name": "Library Transaction",
+ "owner": "Administrator"
+}

@@ -1,0 +1,31 @@
+{% extends "templates/web.html" %}
+
+{% block page_content %}
+<div class="py-8 row">
+	<div class="col-sm-3">
+     <img src= "{{doc.image}}">
+	</div>
+    <div class="col">
+<h2>{{ title }}</h2>
+<p>By: {{author}}</p>
+
+<div>
+    {% if status == "Available" %}
+    <span class="badge badge-success">Available</span>
+    {% elif status=='Issued' %}
+    <span class="badge badge-primary">Issued</span>
+    {% endif %}
+
+
+
+<p>ISBN: <strong>{{ linking }}</strong></p>
+
+</div>
+
+<p>{{ decription }}</p>
+</div>
+
+
+{% endblock %}
+
+<!-- this is a sample default web page template -->

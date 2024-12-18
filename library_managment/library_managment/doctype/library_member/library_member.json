@@ -1,0 +1,146 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "prompt",
+ "creation": "2024-10-16 15:40:29.239710",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "user_created",
+  "name1",
+  "last_name",
+  "date_of_birth",
+  "age",
+  "status",
+  "column_break_cytg9",
+  "full_name",
+  "email",
+  "get_otp",
+  "validity",
+  "phone",
+  "section_break_cv3so",
+  "lm_child",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "name1",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "first_name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "last_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "last_name"
+  },
+  {
+   "fieldname": "age",
+   "fieldtype": "Data",
+   "label": "age",
+   "read_only": 1
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "status",
+   "options": "Open\nClosed"
+  },
+  {
+   "fieldname": "full_name",
+   "fieldtype": "Data",
+   "label": "full_name",
+   "read_only": 1
+  },
+  {
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "label": "email",
+   "options": "Email"
+  },
+  {
+   "fieldname": "phone",
+   "fieldtype": "Phone",
+   "label": "phone"
+  },
+  {
+   "fieldname": "section_break_cv3so",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "lm_child",
+   "fieldtype": "Table",
+   "label": "LM Child",
+   "options": "LM Child"
+  },
+  {
+   "fieldname": "column_break_cytg9",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "validity",
+   "fieldtype": "Data",
+   "label": "Membership Valid till (Days)"
+  },
+  {
+   "fieldname": "date_of_birth",
+   "fieldtype": "Date",
+   "label": "Date of birth"
+  },
+  {
+   "fieldname": "get_otp",
+   "fieldtype": "Button",
+   "label": "Get otp on mail"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Library Member",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "user_created",
+   "fieldtype": "Check",
+   "label": "User created",
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-11-19 11:26:06.501555",
+ "modified_by": "Administrator",
+ "module": "Library Managment",
+ "name": "Library Member",
+ "naming_rule": "Set by user",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}
